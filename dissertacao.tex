@@ -62,33 +62,33 @@
 % Identificacoes (se o trabalho for em inglês, insira os dados em inglês)
 % Para entradas abreviadas de Professora (Profa.) em português escreva: Prof$^\textnormal{a}$.
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\course{Engenharia Aeronáutica e Mecânica} % Programa de PG ou Curso de Graduação
-\area{Sistemas Aeroespaciais e Mecatrônica} % Área de concentração na PG (Não utilizado no caso de TG)
-\dept{Engenharia Mecânica} % Divisão Acadêmica no ITA
+\course{Engenharia Eletrônica e Computação} % Programa de PG ou Curso de Graduação
+\area{Informática} % Área de concentração na PG (Não utilizado no caso de TG)
+\dept{Engenharia da Computação} % Divisão Acadêmica no ITA
 
 % Autor do trabalho: Nome Sobrenome
 \authorgender{masc}                     %sexo: masc ou fem
 \author{Thoris Angelo}{Pivetta}
-\itaauthoraddress{Av. Cidade Jardim, 679}{12.246-021}{São José dos Campos--SP}
+\itaauthoraddress{Av. Benedito Osvaldo Lecques, 190}{12.246-021}{São José dos Campos--SP}
 
 % Titulo da Tese/Dissertação
-\title{Uma Abordagem Sobre o Dilema do Cupim Frente ao Concreto Armado Utilizando Diferentes Composições Ciment\'{i}sticas}
+\title{Combinação de aspectos discriminados e visuais da aparência da face complementado ao método LBPH para reconhecimento facial}
 
 % Orientador
 \advisorgender{masc}                    % masc ou fem
-\advisor{Prof.~Dr.}{Adalberto Santos Dupont}{ITA}
+\advisor{Prof.~Dr.}{Carlos Henrique Quartucci Forster}{ITA}
 
 % Coorientador (Caso não haja coorientador, colocar ambas as variáveis \coadvisorgender e \coadvisor comentadas, com um % na frente)
-\coadvisorgender{fem}									% masc ou fem
-\coadvisor{Prof$^\textnormal{a}$.~Dr$^\textnormal{a}$.}{Doralice Serra}{OVNI}
+%\coadvisorgender{fem}									% masc ou fem
+%\coadvisor{Prof$^\textnormal{a}$.~Dr$^\textnormal{a}$.}{Doralice Serra}{OVNI}
 
 % Pró-reitor da Pós-graduação
 \bossgender{masc}												% masc ou fem
-\boss{Prof.~Dr.}{John von Neumann}
+\boss{Prof.~Dr.}{Luiz Carlos Sandoval Góes}
 
 %Coordenador do curso no caso de TG
 \bosscoursegender{masc}									% masc ou fem
-\bosscourse{Prof.~Dr.}{John Walker}
+\bosscourse{Prof.~Dr.}{Carlos Alberto Alonso Sanches}
 
 % Palavras-Chaves informadas pela Biblioteca -> utilizada na CIP
 \kwcip{Cupim}
@@ -97,17 +97,17 @@
 
 % membros da banca examinadora
 
-\examiner{Prof. Dr.}{Alan Turing}{Presidente}{ITA}
-\examiner{Prof. Dr.}{Linus Torwald}{}{UXXX}
-\examiner{Prof. Dr.}{Richard Stallman}{}{UYYY}
-\examiner{Prof. Dr.}{Donald Duck}{}{DYSNEY}
-\examiner{Prof. Dr.}{Mickey Mouse}{}{DISNEY}
+\examiner{Prof. Dr.}{x}{Cargo}{ITA}
+\examiner{Prof. Dr.}{x}{}{UXXX}
+\examiner{Prof. Dr.}{x}{}{UYYY}
+\examiner{Prof. Dr.}{x}{}{DYSNEY}
+\examiner{Prof. Dr.}{x}{}{DISNEY}
 
 % Data da defesa (mês em maiúsculo, se trabalho em inglês, e minúsculo se trabalho em português) 
-\date{5}{março}{2015}
+\date{15}{dezembro}{2016}
 
 % Número CDU - (somente para TG)
-\cdu{621.38}
+%\cdu{621.38}
 
 % Glossario
 \makeglossary
@@ -119,7 +119,8 @@
 
 % Dedicatoria: Nao esqueca essa secao  ... :-)
 \begin{itadedication}
-Aos amigos da Graduação e Pós-Graduação do ITA por motivarem tanto a criação deste template pelo Fábio Fagundes Silveira quanto por motivarem a mim e outras pessoas a atualizarem e aprimorarem este excelente trabalho.
+%Aos amigos da Graduação e Pós-Graduação do ITA por motivarem tanto a criação deste template pelo Fábio Fagundes Silveira quanto por motivarem a mim e outras pessoas a atualizarem e aprimorarem este excelente trabalho.	
+\input{Capitulo0/dedicatoria}
 \end{itadedication}
 
 % Agradecimentos
@@ -132,13 +133,16 @@ Aos amigos da Graduação e Pós-Graduação do ITA por motivarem tanto a criação des
 \ifhyperref\pdfbookmark[0]{\nameepigraphe}{epigrafe}\fi
 \begin{flushright}
 \begin{spacing}{1}
-\mbox{}\vfill
-{\sffamily\itshape
-``If I have seen farther than others,\\
-it is because I stood on the shoulders of giants.''\\}
---- \textsc{Sir~Isaac Newton}
+\input{Capitulo0/epigrafe}
+%\mbox{}\vfill
+%{\sffamily\itshape
+%``If I have seen farther than others,\\
+%it is because I stood on the shoulders of giants.''\\}
+%--- \textsc{Sir~Isaac Newton}
 \end{spacing}
 \end{flushright}
+
+
 
 % Resumo
 \begin{abstract}
@@ -202,16 +206,16 @@ it is because I stood on the shoulders of giants.''\\}
 
 % Folha de Registro do Documento
 % Valores dos campos do formulario
-\FRDitadata{25 de março de 2015}
-\FRDitadocnro{DCTA/ITA/TC-018/2015} %(o número de registro você solicita a biblioteca)
-\FRDitaorgaointerno{Instituto Tecnológico de Aeronáutica -- Divisão de Engenharia Mecânica -- ITA/IEM}
+\FRDitadata{12 de dezembro de 2016}
+\FRDitadocnro{DCTA/ITA/DM-018/2016} %(o número de registro você solicita a biblioteca)
+\FRDitaorgaointerno{Instituto Tecnológico de Aeronáutica -- Divisão de Engenharia Eletrônica e Computação -- ITA/IEM}
 %Exemplo no caso de pós-graduação: Instituto Tecnol{\'o}gico de Aeron{\'a}utica -- ITA
 \FRDitapalavrasautor{Cupim; Cimento; Estruturas}
 \FRDitapalavrasresult{Cupim; Dilema; Construção}
 %Exemplo no caso de graduação (TG):
 %\FRDitapalavraapresentacao{Trabalho de Graduação, ITA, São José dos Campos, 2015. \NumPenultimaPagina\ páginas.}
 %Exemplo no caso de pós-graduação (msc, dsc):
-\FRDitapalavraapresentacao{ITA, São José dos Campos. Curso de Mestrado. Programa de Pós-Graduação em Engenharia Aeronáutica e Mecânica. Área de Sistemas Aeroespaciais e Mecatrônica. Orientador: Prof.~Dr. Adalberto Santos Dupont. Coorientadora: Prof$^\textnormal{a}$.~Dr$^\textnormal{a}$. Doralice Serra. Defesa em 05/03/2015. Publicada em 25/03/2015.}
+\FRDitapalavraapresentacao{ITA, São José dos Campos. Curso de Mestrado. Programa de Pós-Graduação em Engenharia Eletrônica e Computação. Área de Informática. Orientador: Prof.~Dr. Carlos Henrique Quartucci Forster.  Defesa em 12/12/2016. Publicada em 12/12/2016.}
 \FRDitaresumo{\input{Capitulo0/resumo}}
 %  Primeiro Parametro: Nacional ou Internacional -- N/I
 %  Segundo parametro: Ostensivo, Reservado, Confidencial ou Secreto -- O/R/C/S
@@ -220,4 +224,4 @@ it is because I stood on the shoulders of giants.''\\}
 \itaFRD
 
 \end{document}
-% Fim do Documento. O massacre acabou!!! :-)
+% Fim do Documento. 
